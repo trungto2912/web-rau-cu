@@ -1,0 +1,72 @@
+#chidan:hover{
+	color: #80bb35;
+}
+#chidan1{
+	color: #80bb35;
+}
+#navdrop_nd{
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;	
+
+}
+ .panel{
+   border: 1px solid #d9d9d9;
+   border-radius: 10px;
+  }
+  .panel{
+   border: 1px solid #d9d9d9;
+   border-radius: 10px;
+  }
+.tit_tin{
+	font-weight: bold;
+	color: #fff;
+	background-color: #80bb35;
+	width: 100%;
+	height: 40px;
+	padding-left: 30px;
+	padding-top: 8px;
+	border-radius: 20px;
+
+}
+ .row1{
+ 	margin-top: 10px;
+ }
+ .tin_nb{
+	height: 150px;
+}
+ #anh_nb{
+	  width: 100px;
+	  height: 100px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+}
+.tintuc{
+	height: 200px;
+}
+#tin{
+	width: 250px;
+	height: 150px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.phantrangTin{
+	margin-left: 295px;
+ 	margin-top: 50px;
+ 	text-align: center;
+ }
+ @media screen and ( max-width:760px){
+    
+.phantrangTin{
+ 	
+	margin-left: 100px;
+ 	margin-top: 50px;
+ 	text-align: center;
+
+ }
+
+ }
+
+

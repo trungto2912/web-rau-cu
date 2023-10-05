@@ -1,0 +1,326 @@
+
+html,body{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+ }
+ a:hover{
+  text-decoration: none;
+   color: #80bb35;
+ }
+ h1,h2,h3,h4{
+  font-weight: bold;
+ }
+ table{
+  margin-top: 50px;
+ }
+ .header{
+ 	height: 105px;
+
+ }
+
+
+
+ .header_nd h5,.header_nd p{
+ 	margin-left: 60px;
+
+ }
+ .header_nd #logo{
+  width: 250px;
+  height: 60px;
+ 
+ }
+ #icon{
+ 	float: left;
+ 	width:50px;
+ 	height: 50px;
+ }
+ #drop{
+ 	color: #000 ;
+ }
+ #drop:hover{
+    color: #fff;
+    background-color: #80bb35;
+ }
+ .btn{
+ 	text-decoration: none;
+ 	color: #fff;
+ 	background-color: #80bb35;
+ 	border-radius:20px;
+ }
+ .btn:hover{
+ 	color: #fff;
+ 	background-color: #008000;
+
+ }
+ .navbar{
+	background-color: #80bb35;
+	
+ }
+
+ .fixed{
+ 	position: fixed;
+ 	z-index: 10000;
+ 	top: 0px;
+ 	width: 100%;
+ }
+
+ .navbar li,li a{
+	color: #fff ;
+	margin-right: 10px;
+ }
+ .navbar li a:hover{
+	color: #fff;
+	background-color: #008000;
+	border-radius: 10px;
+
+ }
+ .navbar ul li:hover .dropdown-menu{
+ 	display: block;
+ }
+ .active{
+ 	background-color: #008000;
+ 	border-radius: 10px;
+ }
+ 
+ .hr1{
+ 	border: 1px solid #00b300;
+ 	width: 25%;
+ 	margin-left: 1px;
+ }
+ .hr2{
+ 	border: 1px solid #ff0000;
+ }
+ .list-group li a{
+   color: #000;
+ }
+ .list-group li a:hover{
+   color: #80bb35;
+ }
+ .carousel-inner img{
+ 	width: 100%;
+ 	height: 450px;
+ }
+ .carousel-caption{
+ 	position: absolute;
+ 	top: 25%;
+ 	text-shadow: 2px 2px 10px #000;
+ }
+ #hinh1{
+ 	width:100%;
+ 	height: 150px;
+ 	border-radius: 10px;
+ }
+ #cap1{
+ 	position: absolute;
+ 	top: 15%;
+ 	border-radius: 10px;
+ 	font-family: cursive;
+ 	text-shadow: 2px 2px 10px #000;
+box-shadow: 1px 4px 35px 14px rgba(26,38,26,0.71);
+-webkit-box-shadow: 1px 4px 35px 14px rgba(26,38,26,0.71);
+-moz-box-shadow: 1px 4px 35px 14px rgba(26,38,26,0.71);	
+ }
+ .row{
+ 	margin-top: 50px;
+ }
+ .tit1{	
+ 	color: #fff;
+ 	font-weight: bold;
+ 	margin-top: 50px;
+ 	background-color: #80bb35;
+ 	width: 280px;
+ 	height: 50px;
+ 
+ 	padding: 10px;
+ 	border-radius: 0px 30px 30px 0px;
+ }
+  #tit2{
+ 	border-radius: 30px;
+ }
+ .tit2_cap{
+ 	margin-top: 20px;
+ 	margin-left: 32%;
+ 	width: 400px;
+ 	text-align: center;
+ 	font-style: italic;
+
+ }
+ .sanpham{
+ 	height: 350px;
+ 	border-radius: 10px;
+ 	-webkit-box-shadow: 0px 3px 10px 5px #d9d9d9; 
+    box-shadow: 0px 3px 10px 5px #d9d9d9;	
+
+ }
+ .icons{
+
+  font-size: 40px;
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  letter-spacing: 7px;
+  display: none;
+ }
+ .icons a:hover{
+  background-color: #80bb35;
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 5px;
+  border-radius: 20px;
+
+ }
+
+ #hinh2{
+ 	width: 100%;
+ 	height: 250px;
+ 	border-radius: 10px;
+ }
+ .sanpham:hover #hinh2{
+  opacity: 0.3;
+ }
+ .sanpham:hover .icons{
+  display: block;
+
+ }
+ #cap2{
+ 	text-align: center;
+ 	margin-top: 20px;
+ }
+ #gia{
+   margin-top: 10px;
+ 	font-weight: bold;
+ 	color: #ff9900;
+ }
+ #ht1,#ht2,#ht3,#ht4,#ht5,#ht6,#ht7,#ht8,#ht9,#ht10{
+ 	display: none;	
+ }
+
+ .phantrang{
+ 	margin-left: 440px;
+ 	margin-top: 50px;
+ 	text-align: center;
+ }
+  .active1{
+ 	background-color: #80bb35;
+ }
+ .pagination li a{
+   color: #000;
+ }
+
+ .pagination li a:hover{
+ 	background-color: #80bb35;
+
+ }
+ .btn_xemth{
+ 	text-align: center;
+ 
+ }
+ .nd1{
+ 	height: 500px;
+ 	border-radius: 10px;
+ 	border: 1px solid #d9d9d9;
+ }
+ #hinh3{
+ 	width: 100%;
+ 	height: 250px;
+ 	border-radius: 10px;
+ }
+ .nd2{
+ 	height: 220px;
+ 	text-align: center;
+ 	border-radius: 10px;
+ 	border: 1px solid #d9d9d9;
+ }
+ #hinh4{
+ 	width: 25%;
+ 	height: 80px;
+ 	border-radius: 10px;
+ }
+ .logo2{
+ 	border-radius: 10px;
+ 	border: 4px solid #80bb35;
+ }
+ #hinh5{
+ 	width: 100%;
+ 	height: 100px;
+ 	border-radius: 10px;	
+ }
+ .end{
+ 	width: 100%;
+ 	height: 300px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #80bb35;
+ }
+ #end_cap1{
+    margin-top: 50px;
+ 	text-align: center;
+ 	color: #fff;
+
+ }
+ #end_cap2{
+ 	margin-top: 50px;
+
+ 	color: #fff;
+ }
+ #nhanxet{
+ 	width: 100%;
+ 	height: 100px;
+ }
+
+ .tit_end{
+   margin-left: 30px;
+ }
+.list_end li a:hover{
+   color: #008000;
+}
+.canchinh{
+   text-align: center;
+}
+.canchinh1{
+  margin-top: 10px;
+}
+#iconDN{
+  width: 150px;
+  height: 40px;
+}
+#check_pass,#check_pass1{
+  color: red;
+}
+@media screen and ( max-width:760px){
+    .header{
+    display: none;
+  
+   }
+   .dropdown-menu{
+    display: none;
+    background: #fff;
+   }
+    .end{
+  width: 100%;
+  height: 600px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #80bb35;
+ }
+.phantrang{
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+ }
+
+
+ }
+
+
+
+
+
+
+ 
+ 

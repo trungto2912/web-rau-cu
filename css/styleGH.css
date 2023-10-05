@@ -1,0 +1,31 @@
+#chidan:hover{
+	color: #80bb35;
+}
+#chidan1{
+	color: #80bb35;
+}
+.row1{
+	margin-top: 20px;
+	text-align: center;
+	border-bottom: 1px solid #d9d9d9;
+
+
+}
+#anh_gh{
+	width: 120px;
+	height: 100px;
+}
+.cap_gh{
+	padding-top: 40px;
+}
+.fa-trash{
+	font-size: 30px;
+	padding-top: 35px;
+
+}	
+.sum_tien{
+	margin-top: 30px;
+	text-align: right;
+	
+
+}
